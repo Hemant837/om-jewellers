@@ -4,7 +4,7 @@ import Image2 from "../../assets/images/imageSection/image2.jpg";
 
 const ImageSection = () => {
   return (
-    <div className="h-96 flex">
+    <div className="h-[30git rem] flex">
       <div className="w-1/2 mr-2">
         <img
           src={Image1}
