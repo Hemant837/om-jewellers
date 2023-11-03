@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../Root/RootLayout";
-import HeroSection from "../HeroSection/HeroSection";
+import HomePage from "../HomePage/HomePage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
-    children: [{ path: "/", element: <HeroSection /> }],
+    children: [{ path: "/", element: <HomePage /> }],
   },
 ]);
 

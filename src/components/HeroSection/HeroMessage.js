@@ -12,7 +12,7 @@ const HeroMessage = () => {
           The dream collection is jewelry that emphasizes our individuality and
           exudes beauty and style.
         </p>
-        <button className="uppercase border bg-black text-white py-3 px-6">
+        <button className="uppercase border bg-black text-white px-6 py-3 ">
           Find out more
         </button>
       </div>
