@@ -1,8 +1,10 @@
 import { Fragment } from "react";
-import HeroSection from "../HeroSection/HeroSection";
-import MeetSection from "../MeetSection/MeetSection";
-import ImageSection from "../ImageSection/ImageSection";
-import Products from "../NewProducts/Products";
+import HeroSection from "./HeroSection/HeroSection";
+import MeetSection from "./MeetSection/MeetSection";
+import ImageSection from "./ImageSection/ImageSection";
+import NewProducts from "./NewProducts/NewProducts";
+import PearlCollection from "./PearlCollection/PearlCollection";
+import Newsletter from "./Newsletter/Newsletter";
 
 const HomePage = () => {
   return (
@@ -10,7 +12,9 @@ const HomePage = () => {
       <HeroSection />
       <MeetSection />
       <ImageSection />
-      <Products />
+      <NewProducts />
+      <PearlCollection />
+      <Newsletter />
     </Fragment>
   );
 };

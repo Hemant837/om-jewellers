@@ -1,7 +1,7 @@
 import jewelryProducts from "./ProductsArray";
 import Product from "./Product";
 
-const Products = () => {
+const NewProducts = () => {
   return (
     <div className="mx-auto w-5/6 mt-24 text-center">
       <p className="mb-6  uppercase text-orange-400 font-semibold">
@@ -22,4 +22,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default NewProducts;
