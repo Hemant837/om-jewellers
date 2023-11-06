@@ -5,7 +5,7 @@ import { collectionItems, aboutUsItems, guidesItems } from "./FooterArrays";
 
 const FooterA = () => {
   return (
-    <section className="flex justify-between  max-w-7xl mx-auto">
+    <section className="flex justify-between max-w-7xl mx-auto">
       <FooterAHead />
       <FooterAItem heading="Collections" items={collectionItems} />
       <FooterAItem heading="About Us" items={aboutUsItems} />

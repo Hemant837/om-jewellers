@@ -3,19 +3,27 @@ const NavLinks = () => {
     <nav>
       <ul className="flex w-[32rem] justify-between text-md font-semibold uppercase">
         <li>
-          <a className="cursor-pointer">Jewelry</a>
+          <a href="/jewelry" className="cursor-pointer">
+            Jewelry
+          </a>
         </li>
         <li>
-          <a className="cursor-pointer">Collection</a>
+          <a href="/collection" className="cursor-pointer">
+            Collection
+          </a>
         </li>
         <li>
-          <a className="cursor-pointer">About Us</a>
+          <a href="/aboutus" className="cursor-pointer">
+            About Us
+          </a>
         </li>
         <li>
           <a className="cursor-pointer">Blog</a>
         </li>
         <li>
-          <a className="cursor-pointer">Contact</a>
+          <a href="/contact" className="cursor-pointer">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
